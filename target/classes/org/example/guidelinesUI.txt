@@ -1,0 +1,7 @@
+1. write testcases in java, selenium and testng
+2. create methods for sendkeys and click with wait (sleep) of 2 secs
+3. give package name as org.example
+4. give class name as Sample
+5. Use  bonigarcia Webdriver manager, don't use chrome driver
+6. Dont close  the browser at the end
+7. only ASSERT steps with following tag ASSERTION:

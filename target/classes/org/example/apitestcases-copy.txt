@@ -1,0 +1,58 @@
+testcases: [
+{
+requestType: Create,
+url: https://reqres.in/api/users,
+body: {
+name: morpheus,
+job: leader
+},
+responseCode: 201,
+responseBody: {
+name: morpheus,
+job: leader,
+id: 236,
+createdAt: 2023-03-21T06:39:39.180Z
+}
+},
+{
+requestType: Update,
+url: https://reqres.in/api/users/236,
+body: {
+name: morpheus,
+job: zion resident
+},
+responseCode: 200,
+responseBody: {
+name: morpheus,
+job: zion resident
+}
+},
+{
+requestType: Delete,
+url: https://reqres.in/api/users/236,
+body: {},
+responseCode: 204,
+responseBody: {}
+},
+{
+requestType: Fetch User,
+url: https://reqres.in/api/users/236,
+body: {},
+responseCode: 404
+},
+{
+requestType: Create,
+url: https://reqres.in/api/users,
+body: {
+name: morpheus,
+job: leader
+},
+responseCode: 201,
+responseBody: {
+name: wrong name return,
+job: wrong job return,
+id: 236,
+createdAt: 2023-03-21T06:39:39.180Z
+}
+}
+]

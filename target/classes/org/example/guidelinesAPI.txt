@@ -1,0 +1,7 @@
+1. use java, restassured and testng to write code for following requests
+2. set package name as org.example
+3. set class name as Sample
+4. Use responses from previous api hits
+5. execute requests in the same order as given and use testng priority to do it
+6. Verify response code and response text ignore dynamic data such as dates
+7. only return runnable automation code

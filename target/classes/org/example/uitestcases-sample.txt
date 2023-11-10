@@ -1,0 +1,9 @@
+Steps
+1. Open https://www.saucedemo.com
+2. Enter username as standard_user, password as secret_sauce and click on login
+3. Open the product Sauce Labs Backpack by clicking on it and then add to cart
+5. Click on cart icon and checkout
+6. Enter first name as Kaishu, last name as Thushu and zip as 400001 and click on continue button
+7. Click on finish and complete the process
+8.ASSERTION: Verify that exact message 'Thank you for your order!' is displayed
+9. Also test above steps for account with following login details: username - problem_user and password - secret_sauce

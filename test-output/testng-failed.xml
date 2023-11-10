@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.example.ExtendTestNGITestListenerUI"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="api code execution and report generation(failed)">
+    <classes>
+      <class name="org.example.ApiAutomation">
+        <methods>
+          <include name="createRequestFailure"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.example.ApiAutomation -->
+    </classes>
+  </test> <!-- api code execution and report generation(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
